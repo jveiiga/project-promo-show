@@ -1,5 +1,6 @@
-import React from 'react'
-import './Card.css'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './Card.css';
 
 const PromotionCard = ({ promotion }) => (
   <div className="promotion-card">
@@ -24,7 +25,8 @@ const PromotionCard = ({ promotion }) => (
         target="_blank" rel="noreferrer" 
         className="promotion-card__link">
           Ir para o site
-        </a>
+        </a>  
+        <Link to={`/edit/${promotion.id}`}>Editar</Link>
       </footer>
     </div>
   </div>
