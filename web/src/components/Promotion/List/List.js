@@ -3,15 +3,25 @@ import PromotionCard from 'components/Promotion/Card/Card'
 
 import './List.css'
 
-const PromotionList = ({ loading, promotions }) => {
-    if(loading) {
-        return <div>Carregando...</div>
+const PromotionList = ({ loading, error, promotions }) => {
+    
+    if (error) {
+        return <div>Algo de errado aconteceu</div>;
     }
+
+    if (loading || promotions === null) {
+        return <div>Carregando...</div>;
+    }
+
+    if (promotions.length === 0) {
+        return <div>Nenhum resultado encontrado</div>;
+    }
+
 
     return (
         <div className="promotion-list">
-            {promotions.map((promotions) => (
-                <PromotionCard promotion={promotions} />
+            {promotions.map((promotion) => (
+                <PromotionCard promotion={promotion} />
             ))}
         </div>
     )
