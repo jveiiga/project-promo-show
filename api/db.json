@@ -69,6 +69,20 @@
       "promotionId": 2,
       "comment": "???\n",
       "id": 11
+    },
+    {
+      "userId": 1,
+      "promotionId": 1,
+      "comment": " Caiu do caminhão Hoje!!!",
+      "parentId": 1,
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "promotionId": 1,
+      "comment": " Tá acabando!!!",
+      "parentId": 12,
+      "id": 13
     }
   ],
   "users": [
