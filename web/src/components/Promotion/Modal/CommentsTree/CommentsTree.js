@@ -59,7 +59,7 @@ const CommentsTree = ({ comments, sendComment }) => {
             type="button"
             className="promotion-modal-comments-tree__answer-button"
             onClick={() => {
-              setComment(" ");
+              setComment(' ');
               setActiveCommentBox(
                 activeCommentBox === item.id ? null : item.id
               );
@@ -78,7 +78,7 @@ const CommentsTree = ({ comments, sendComment }) => {
                 className="promotion-modal-comments-tree__send-button"
                 onClick={() => {
                   sendComment(comment, item.id);
-                  setComment(" ");
+                  setComment(' ');
                   setActiveCommentBox(null);
                 }}
               >

@@ -79,9 +79,11 @@ const PromotionSearch = () => {
           loading={loadInfo.loading}
           error={loadInfo.error}
         />
-        {loadInfo.data && !loadInfo.loading && loadInfo.data?.length < loadInfo.total && (
-        <UIInfinityScroll fetchMore={fetchMore} />
-        )}
+        {loadInfo.data &&
+          !loadInfo.loading &&
+          loadInfo.data?.length < loadInfo.total && (
+            <UIInfinityScroll fetchMore={fetchMore} />
+          )}
       </div>
     );
 }

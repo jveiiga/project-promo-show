@@ -29,11 +29,18 @@
       "imageUrl": "https://cdn.gatry.com/gatry-static/promocao/imagem_url/9c4b176eb52bb4877e853cf36393d8fc.jpg"
     },
     {
-      "title": "Jogo Speed Brawl ",
+      "title": "Jogo Speed Brawl",
       "url": "https://www.epicgames.com/store/pt-BR/p/speed-brawl",
       "imageUrl": "https://cdn.gatry.com/gatry-static/promocao/imagem/8a29450587a7b39e05b2cb16ad22a891.jpg",
       "price": "00.00",
       "id": 5
+    },
+    {
+      "title": "Premium American Lager (Hop Lager) Cervejaria Quinta Do Malte 600 Ml",
+      "url": "https://amzn.to/3ueCjHV",
+      "imageUrl": "https://cdn.gatry.com/gatry-static/promocao/imagem/3cd438188d1fb9da36b2cbb59f5182b4.png",
+      "price": 12.97,
+      "id": 6
     }
   ],
   "comments": [
