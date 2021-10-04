@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import useApi from 'components/utils/useApi'
 import { Link } from 'react-router-dom'
-
+import useApi from 'components/utils/useApi'
+import UIButton from 'components/UI/Button/Button';
 
 import PromotionList from 'components/Promotion/List/List'
 import UIInfinityScroll from 'components/UI/InfinitScroll/InfinitScroll';
@@ -65,7 +65,13 @@ const PromotionSearch = () => {
       <div className="promotion-search">
         <header className="promotion-serch__header">
           <h1>Promo Show</h1>
-          <Link to="/create">Nova Promoção</Link>
+          <UIButton 
+            component={Link} 
+            to="/create"
+            theme="contained-green"
+            >
+            Nova Promoção
+          </UIButton>
         </header>
         <input
           type="search"
