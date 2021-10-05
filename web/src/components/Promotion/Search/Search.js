@@ -12,7 +12,7 @@ const baseParams = {
   _embed: "comments",
   _order: "desc",
   _sort: "id",
-  _limit: 3,
+  _limit: 5,
 };
 
 const PromotionSearch = () => {

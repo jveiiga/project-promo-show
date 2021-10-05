@@ -11,7 +11,7 @@ const UIButton = ({ children, className,  component: Component, theme, ...restPr
 
 UIButton.defaultProps = {
   component: "a",
-  className: "",
+  className: " ",
   theme: 'bordered-blue'
 };
 
