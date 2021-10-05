@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaTrashAlt } from 'react-icons/fa'
 import UIButton from 'components/UI/Button/Button'
 import './Card.css';
 
-const PromotionCard = ({ promotion, oncClickComments }) => (
+const PromotionCard = ({ promotion, oncClickComments, onclickDelete }) => (
   <div className="promotion-card">
     <img
       alt="promotion.title"
@@ -42,6 +43,13 @@ const PromotionCard = ({ promotion, oncClickComments }) => (
           Editar
         </UIButton>
       </footer>
+      <button
+        type="button"
+        className="promotion-card__delete-button"
+        onClick={onclickDelete}
+      >
+        <FaTrashAlt />
+      </button>
     </div>
   </div>
 );
