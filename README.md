@@ -7,9 +7,7 @@
 <h3 align="center">Projeto finalizado com o intuito de aprimorar minha base de conhecimento.<h3/>
 <h3 align="center">Não foi levado em consideração conceitos Mobile First.<h3/>
 <h3 align="center">Foi levado em consideração HTML semântico.<h3/>
-
-<h2 align="center"><a target="_blank" href="https://to-do-list-jveiiga.vercel.app/" alt="To do list">Clique aqui para ver meu projeto final!<a/><h2/> 
-  
+   
 ## 🖥  Imagem
 
 <details>
