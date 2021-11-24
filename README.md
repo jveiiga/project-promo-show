@@ -1,7 +1,7 @@
 <h1 align="center">Project Promo Show &nbsp📦<h1/>
 
-  <img alt="GitHub" src="https://img.shields.io/github/license/jveiiga/to-do-list">
-  <img alt="GitHub" src="https://img.shields.io/badge/jveiiga-project%20to do list-yellow">
+  <img alt="GitHub" src="https://img.shields.io/github/license/jveiiga/project-promo-show?color=9cf&label=license">
+  <img alt="GitHub" src="https://shields.io/badge/jveiiga-project--promo--show-9cf">
  
 <h3 align="center"><a target="_blank" href="https://www.youtube.com/watch?v=dKtvxPmAyXs&list=PLv2oOZboUtKMMszyFDrMz-cVs4pKqDssM&index=3&t=2008s">Layout Project</a><h3/> 
 <h3 align="center">Projeto finalizado com o intuito de aprimorar minha base de conhecimento.<h3/>
