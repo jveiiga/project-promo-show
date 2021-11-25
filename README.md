@@ -7,6 +7,15 @@
 <h3 align="center">Projeto finalizado com o intuito de aprimorar minha base de conhecimento.<h3/>
 <h3 align="center">Não foi levado em consideração conceitos Mobile First.<h3/>
 <h3 align="center">Foi levado em consideração HTML semântico.<h3/>
+  
+##
+  
+Este projeto foi inicializado com o aplicativo Create React.
+
+Você pode executar:
+### `npm start`
+Abra http: // localhost: 3000 para visualizá-lo no navegador.
+  
    
 ## 🖥  Imagem
 
