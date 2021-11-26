@@ -12,10 +12,13 @@
   
 Este projeto foi inicializado com o aplicativo Create React.
 
-Você pode executar:
+Você pode executar: cd web
 ### `npm start`
 Abra http: // localhost: 3000 para visualizá-lo no navegador.
   
+Depois execute: cd api
+### `npm start`
+##
    
 ## 🖥  Imagem
 
