@@ -3,7 +3,7 @@
   <img alt="GitHub" src="https://img.shields.io/github/license/jveiiga/project-promo-show?color=9cf&label=license">
   <img alt="GitHub" src="https://shields.io/badge/jveiiga-project--promo--show-9cf">
  
-<h3 align="center"><a target="_blank" href="https://www.youtube.com/watch?v=dKtvxPmAyXs&list=PLv2oOZboUtKMMszyFDrMz-cVs4pKqDssM&index=3&t=2008s">Layout Project</a><h3/> 
+<h3 align="center"><a href="https://www.youtube.com/watch?v=dKtvxPmAyXs&list=PLv2oOZboUtKMMszyFDrMz-cVs4pKqDssM&index=3&t=2008s" target="_blank">Layout Project</a><h3/> 
 <h3 align="center">Projeto finalizado com o intuito de aprimorar minha base de conhecimento.<h3/>
 <h3 align="center">Não foi levado em consideração conceitos Mobile First.<h3/>
 <h3 align="center">Foi levado em consideração HTML semântico.<h3/>
